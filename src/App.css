@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#fake-body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  transition: all 2s ease;
+}
+#quote-box{
+  width: 400px ;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: white;
+}
+#quote-box p{
+  color: black;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+#tweet-quote{
+  transition: all 2s ease;
+}
+
+button{
+  border: none;
+  color: aliceblue;
+  padding: .7rem;
+  border-radius: 1rem;
+  transition: all 2s ease;
+}
+#button-container{
+  display: flex;
+  gap: 1rem;
+}
+.blue {
+  color: blue;
+}
+
+.blue-background {
+  background-color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.orange-background {
+  background-color: orange;
+}
+
+.green {
+  color: green;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.red {
+  color: red;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.coral {
+  color: coral;
+}
+
+.coral-background {
+  background-color: coral;
+}
+
+.violet {
+  color: violet;
+}
+
+.violet-background {
+  background-color: violet;
+}
